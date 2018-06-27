@@ -53,7 +53,7 @@
 }
 - (IBAction)onEditingBegan:(id)sender {
     [UIView animateWithDuration:0.2 animations:^{
-        self.billField.frame = CGRectMake(self.billField.frame.origin.x, self.billField.frame.origin.y - 100, self.billField.frame.size.width, self.billField.frame.size.height);
+        self.billField.frame = CGRectMake(self.billField.frame.origin.x, self.billField.frame.origin.y - 120, self.billField.frame.size.width, self.billField.frame.size.height);
     }];
     
     [UIView animateWithDuration:1 animations:^{
@@ -65,10 +65,10 @@
 
 - (IBAction)onEditingEnd:(id)sender {
     CGRect newFrame = self.billField.frame;
-    newFrame.origin.y -= 100;
+    newFrame.origin.y -= 120;
     
     [UIView animateWithDuration:0.2 animations:^{
-       self.billField.frame = CGRectMake(self.billField.frame.origin.x, self.billField.frame.origin.y + 100, self.billField.frame.size.width, self.billField.frame.size.height);
+       self.billField.frame = CGRectMake(self.billField.frame.origin.x, self.billField.frame.origin.y + 120, self.billField.frame.size.width, self.billField.frame.size.height);
     }];
     
     [UIView animateWithDuration:0.2 animations:^{

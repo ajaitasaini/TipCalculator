@@ -15,6 +15,7 @@
 		193BFD4E20E2D60D00296F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BFD4D20E2D60D00296F34 /* main.m */; };
 		193BFD5820E2D60D00296F34 /* TipCalculatorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BFD5720E2D60D00296F34 /* TipCalculatorAppTests.m */; };
 		193BFD6320E2D60D00296F34 /* TipCalculatorAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BFD6220E2D60D00296F34 /* TipCalculatorAppUITests.m */; };
+		193BFD7220E3124C00296F34 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BFD7120E3124C00296F34 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		193BFD5E20E2D60D00296F34 /* TipCalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		193BFD6220E2D60D00296F34 /* TipCalculatorAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorAppUITests.m; sourceTree = "<group>"; };
 		193BFD6420E2D60D00296F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193BFD7020E3124C00296F34 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		193BFD7120E3124C00296F34 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				193BFD4120E2D60B00296F34 /* ViewController.h */,
 				193BFD4220E2D60B00296F34 /* ViewController.m */,
 				193BFD4420E2D60B00296F34 /* Main.storyboard */,
+				193BFD7020E3124C00296F34 /* SettingsViewController.h */,
+				193BFD7120E3124C00296F34 /* SettingsViewController.m */,
 				193BFD4720E2D60D00296F34 /* Assets.xcassets */,
 				193BFD4920E2D60D00296F34 /* LaunchScreen.storyboard */,
 				193BFD4C20E2D60D00296F34 /* Info.plist */,
@@ -265,6 +270,7 @@
 				193BFD4320E2D60B00296F34 /* ViewController.m in Sources */,
 				193BFD4E20E2D60D00296F34 /* main.m in Sources */,
 				193BFD4020E2D60B00296F34 /* AppDelegate.m in Sources */,
+				193BFD7220E3124C00296F34 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
